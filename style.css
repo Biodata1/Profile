@@ -1,0 +1,54 @@
+body {
+    min-height: 2000px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.btn-primary {
+    background-color: #0056b3; /* Warna biru tua */
+    border-color: #004494;
+  }
+  .btn-primary:hover {
+    background-color: #003d80;
+    border-color: #003066;
+  }
+  
+
+.navbar-nav .nav-link:hover {
+    color: #ffd700;
+  }
+  
+
+.jumbotron {
+    padding-top: 6rem;  /* Dalam CSS, rem adalah salah satu satuan pengukuran yang digunakan untuk menentukan ukuran elemen dalam desain web. rem adalah singkatan dari 
+    "root em", dan nilainya bergantung pada ukuran font dari elemen root (<html>). https://getbootstrap.com/docs/4.6/components/jumbotron/*/
+    background-color: #e2edff;
+}
+
+#project {
+    background-color: #e2edff;
+}
+
+.progress-bar {
+    transition: width 1s ease-in-out;
+  }
+  
+
+.img-thumbnail:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+  }
+
+section.contact svg {
+    margin-bottom: -5px; /* Atur nilai ini untuk menghilangkan garis putih */
+  }
+
+section {
+    padding-top: 5rem;
+}
+footer {
+    margin-top: auto;
+    color: #f8f9fa;
+  }
